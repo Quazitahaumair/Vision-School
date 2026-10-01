@@ -1,0 +1,22 @@
+/* Footer Component Styles */
+
+.site-footer {
+  background-image: linear-gradient(to bottom, #EBF4FE, #DBEAFE, #EBF4FE);
+  color: #0f172a;
+}
+
+.footer-link {
+  display: inline-block;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  color: #1e3a8a;
+  transform: translateX(0.25rem);
+}
+
+.sub-footer-bar {
+  border-top: 1px solid rgba(147, 197, 253, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
+}

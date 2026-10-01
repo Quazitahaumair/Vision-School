@@ -1,0 +1,38 @@
+/* VectorsAndAnimations Component Styles */
+
+.vector-svg-pointer-none {
+  pointer-events: none;
+  user-select: none;
+}
+
+.organic-wave-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.organic-wave-top {
+  top: -2px;
+}
+
+.organic-wave-bottom {
+  bottom: -2px;
+}
+
+@keyframes floatSoft {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-float-soft {
+  animation: floatSoft 6s ease-in-out infinite;
+}

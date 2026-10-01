@@ -1,0 +1,46 @@
+/* Header Component Styles */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-header-hero-active {
+  border-bottom-color: transparent;
+  background-color: transparent;
+  color: #0f172a;
+  box-shadow: none;
+}
+
+.site-header-scrolled {
+  border-bottom: 1px solid var(--color-border);
+  background-color: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.header-accessibility-panel {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 100%;
+  z-index: 50;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 20px 50px rgba(16, 42, 67, 0.12);
+}
+
+@media (min-width: 768px) {
+  .header-accessibility-panel {
+    left: auto;
+    right: 1rem;
+    width: 26rem;
+  }
+}

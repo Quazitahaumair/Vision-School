@@ -1,0 +1,14 @@
+/* AboutPagePatterns Component Styles */
+
+.about-page-pattern-container {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+.about-page-pattern-svg {
+  width: 100%;
+  height: 100%;
+}

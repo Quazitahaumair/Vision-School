@@ -1,0 +1,12 @@
+/* ClayMascots Component Styles */
+
+.clay-mascot-wrapper {
+  position: relative;
+  user-select: none;
+  filter: drop-shadow(0 15px 30px rgba(24, 59, 86, 0.2));
+}
+
+.clay-mascot-svg {
+  width: 100%;
+  height: 100%;
+}
